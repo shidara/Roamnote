@@ -33,10 +33,10 @@ type ModelPlan = {
 type IconName = "home" | "map" | "photo" | "calendar" | "arrow" | "plus" | "grip" | "clock" | "close" | "check" | "route" | "search"
 
 const photos = {
-  hero: "/images/kyoto-hero.jpg",
-  path: "/images/green-path.jpg",
-  window: "/images/cafe-window.jpg",
-  street: "/images/kyoto-street.jpg",
+  hero: `${import.meta.env.BASE_URL}images/kyoto-hero.jpg`,
+  path: `${import.meta.env.BASE_URL}images/green-path.jpg`,
+  window: `${import.meta.env.BASE_URL}images/cafe-window.jpg`,
+  street: `${import.meta.env.BASE_URL}images/kyoto-street.jpg`,
   mountains:
     "https://images.unsplash.com/photo-1595270470419-863bd4e1c78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMHRyYXZlbCUyMGZvcmVzdCUyMGZyaWVuZHMlMjBzY2VuaWN8ZW58MXx8fHwxNzkyMDcxMzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
   onsen:
