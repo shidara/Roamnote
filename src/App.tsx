@@ -282,7 +282,7 @@ function BottomNav({
   screen: Screen
   setScreen: (screen: Screen) => void
 }) {
-  const items: { id: Screen label: string icon: IconName }[] = [
+  const items: { id: Screen; label: string; icon: IconName }[] = [
     { id: "home", label: "ホーム", icon: "home" },
     { id: "plan", label: "計画", icon: "map" },
     { id: "memory", label: "思い出", icon: "photo" },
@@ -1698,7 +1698,7 @@ function CreateTrip({
   )
 }
 
-function AddSpotModal({ close, add }: { close: () => void add: () => void }) {
+function AddSpotModal({ close, add }: { close: () => void; add: () => void }) {
   return (
     <div
       className="fixed inset-0 z-50 flex items-end justify-center bg-stone-950/40 p-4 backdrop-blur-sm sm:items-center"
