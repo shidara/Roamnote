@@ -1,0 +1,10 @@
+{
+  "description": "This travel management app allows couples to plan trips and reflect on memories with an intuitive interface featuring maps, spot lists, and photo albums.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
